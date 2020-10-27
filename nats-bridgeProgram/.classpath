@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/asm-5.0.3.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/asm-analysis-5.0.3.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/asm-commons-5.0.3.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/asm-tree-5.0.3.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/asm-util-5.0.3.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/azure-storage-2.2.0.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/bcmail-jdk15on-1.53.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/bcpkix-jdk15on-1.53.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/bcprov-jdk15on-1.53.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/iot-deps-0.8.1.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/iot-device-client-1.16.0.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/jackson-core-2.2.3.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/javax.json-1.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/jffi-1.2.15-native.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/jffi-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/jnr-constants-0.9.9.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/jnr-enxio-0.17.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/jnr-ffi-2.1.4.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/jnr-posix-3.0.45.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/jnr-unixsocket-0.19.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/jnr-x86asm-1.0.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/org.eclipse.paho.client.mqttv3-1.2.0.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/proton-j-0.25.0.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/security-provider-1.2.0.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/eddsa-0.3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/yurikim/Desktop/nats-bridgeProgram/jar_files/jnats-2.8.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox fx:controller="application.SecondController" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ECECEC;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="40.0" prefWidth="500.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Data Coming From NATS">
+               <HBox.margin>
+                  <Insets left="59.0" />
+               </HBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Data Sending to IoT Hub">
+               <HBox.margin>
+                  <Insets left="116.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="500.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" style="-fx-background-color: #FFFFFF;">
+               <children>
+                  <ScrollPane fx:id="leftBox" fitToWidth="true" prefHeight="278.0" prefWidth="243.0">
+                     <content>
+                        <TextArea fx:id="natsText" prefHeight="281.0" prefWidth="243.0" />
+                     </content>
+                  </ScrollPane>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="98.0" prefWidth="100.0" style="-fx-background-color: #FFFFFF;">
+               <children>
+                  <ScrollPane fx:id="rightBox" fitToWidth="true" prefHeight="278.0" prefWidth="243.0">
+                     <content>
+                        <TextArea fx:id="iothubText" prefHeight="277.0" prefWidth="243.0" />
+                     </content>
+                  </ScrollPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <Button mnemonicParsing="false" style="-fx-background-color: #00893E;" text="DIsconnect" textFill="WHITE" onAction="#disconnect">
+         <VBox.margin>
+            <Insets left="415.0" top="13.0" />
+         </VBox.margin>
+         <font>
+            <Font name="AdobeArabic-Regular" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</VBox>
